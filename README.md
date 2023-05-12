@@ -36,15 +36,15 @@
 
 
 ### 2023.05.09.(화)
-<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 과일의 재고를 관리하는 FruitStore 타입과 과일 쥬스를 제조하는 JuiceMaker타입을 정의 후 initializer 설정
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/e2a9ac12-4b45-4e07-9125-62df5f5a588e" height="21"/> 과일의 재고를 관리하는 FruitStore 타입과 과일 쥬스를 제조하는 JuiceMaker타입을 정의 후 initializer 설정
 
-<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 과일의 재고 수량을 갱신 해주는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/e2a9ac12-4b45-4e07-9125-62df5f5a588e" height="21"/> 과일의 재고 수량을 갱신 해주는 기능 추가
 
-<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 현재 남아있는 과일의 수량을 알려주는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/e2a9ac12-4b45-4e07-9125-62df5f5a588e" height="21"/> 현재 남아있는 과일의 수량을 알려주는 기능 추가
 
-<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 해당 쥬스를 만들 수 있는 지 체크하는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/e2a9ac12-4b45-4e07-9125-62df5f5a588e" height="21"/> 해당 쥬스를 만들 수 있는 지 체크하는 기능 추가
 
-<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 쥬스를 만드는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/e2a9ac12-4b45-4e07-9125-62df5f5a588e" height="21"/> 쥬스를 만드는 기능 추가
 
 
 ### 2023.05.10.(수)
