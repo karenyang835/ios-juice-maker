@@ -21,8 +21,7 @@
 ## 1. 팀원
 | [myungsun ♌️](https://github.com/myungsun7782)  | [Karen ♉️](https://github.com/karenyang835) |
 | :--------: | :--------: |
-| <img src="https://hackmd.io/_uploads/HkegBgPEh.png" height="150"/>| <Img src="https://i.imgur.com/auFOXpc.png" width="150"/>| 
-
+| <img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/c41add1e-9da1-473d-b5c5-b1cf3f175654" height="150"/>| <Img src="https://i.imgur.com/auFOXpc.png" width="150"/>| 
 
 ---
 </br>
@@ -37,33 +36,33 @@
 
 
 ### 2023.05.09.(화)
-<img src="https://i.imgur.com/zA6caJM.png" height="16"/> 과일의 재고를 관리하는 FruitStore 타입과 과일 쥬스를 제조하는 JuiceMaker타입을 정의 후 initializer 설정
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 과일의 재고를 관리하는 FruitStore 타입과 과일 쥬스를 제조하는 JuiceMaker타입을 정의 후 initializer 설정
 
-<img src="https://i.imgur.com/zA6caJM.png" height="16"/> 과일의 재고 수량을 갱신 해주는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 과일의 재고 수량을 갱신 해주는 기능 추가
 
-<img src="https://i.imgur.com/zA6caJM.png" height="16"/> 현재 남아있는 과일의 수량을 알려주는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 현재 남아있는 과일의 수량을 알려주는 기능 추가
 
-<img src="https://i.imgur.com/zA6caJM.png" height="16"/> 해당 쥬스를 만들 수 있는 지 체크하는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 해당 쥬스를 만들 수 있는 지 체크하는 기능 추가
 
-<img src="https://i.imgur.com/zA6caJM.png" height="16"/> 쥬스를 만드는 기능 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/7166e189-f9f5-4d02-8151-c5c7839cabdf" height="21"/> 쥬스를 만드는 기능 추가
 
 
 ### 2023.05.10.(수)
-<img src="https://hackmd.io/_uploads/SklnJ_wiV2.png" height="20"/> 불필요한 주석 제거 및 creator수정
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/6fe0cd08-cf12-4d68-bc9b-ea7bb4284f73" height="21"/> 불필요한 주석 제거 및 creator수정
 
-<img src="https://i.imgur.com/JwTMWid.png" height="16"/> 전체적으로 어색한 네이밍 수정
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/077161b3-b526-48bb-80a3-79b0c0b77f01" height="21"/> 전체적으로 어색한 네이밍 수정
 
-<img src="https://i.imgur.com/JwTMWid.png" height="16"/> FruitStore 생성자 수정
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/077161b3-b526-48bb-80a3-79b0c0b77f01" height="21"/> FruitStore 생성자 수정
 
-<img src="https://i.imgur.com/JwTMWid.png" height="16"/> canMake에 옵셔널 바인딩 추가
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/077161b3-b526-48bb-80a3-79b0c0b77f01" height="21"/> canMake에 옵셔널 바인딩 추가
 
-<img src="https://i.imgur.com/JwTMWid.png" height="16"/> enum 파일들을 Model 디렉토리로 위치 변경
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/077161b3-b526-48bb-80a3-79b0c0b77f01" height="21"/> enum 파일들을 Model 디렉토리로 위치 변경
 
 
 ### 2023.05.12.(금)
-<img src="https://i.imgur.com/JwTMWid.png" height="16"/> 반환되어지는 오류 타입 변경(throws-> Result로 변경)
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/077161b3-b526-48bb-80a3-79b0c0b77f01" height="21"/> 반환되어지는 오류 타입 변경(throws-> Result로 변경)
 
-<img src="https://i.imgur.com/JwTMWid.png" height="16"/> FruitStore 클래스 Preventing Overrides 처리 및 기능 분리 
+<img src="https://github.com/myungsun7782/ios-juice-maker/assets/124643896/077161b3-b526-48bb-80a3-79b0c0b77f01" height="21"/> FruitStore 클래스 Preventing Overrides 처리 및 기능 분리 
 
 </details>
 
