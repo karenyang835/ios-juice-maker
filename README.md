@@ -68,20 +68,16 @@
 | 2023.05.17. | 🪡 메서드 호출 순서 변경</br> 🛠️ `JuiceOrderViewController`에서 `juiceMaker`와 `JuiceMaker` 구조체 내에서 `fruitStore` 접근 제어자 변경 </br> 🛠️`JuiceMaker` 구조체에서 `getCurrentStock` 메서드 정의 |
 | 2023.05.19. | 📋 2주차 `README` 작성                                        |
 
-
 </details>
 
-
 <details><summary span style="color:black; background-color:#aaebaa; font-size:120%"><b>3주차</b></summary></span> 
-
 
 |    날 짜    | 내 용                                                        |
 | :---------: | ------------------------------------------------------------ |
 | 2023.05.22. | 🛠️ `FruitStoreError` 열거형에서 `Error` 프로토콜 삭제</br> 🆕 `JuiceMaker` 구조체와 `FruitStore` 클래스에 캡슐화 된 `getFruitStore`, `update` 메서드 추가</br> 🆕 `StockChangeViewController에서` 관련 컴포넌트 연결 및 `fruitStore` 프로퍼티 추가 </br>  🆕 `StockChangeViewController`에서 `Stepper` 기능 구현</br> 🆕 `StockChangeViewController`에서 과일 재고를 업데이트 해주는 기능 구현 </br> 🆕 `StockChangeDelegate` 프로토콜 선언</br> 🆕 과일 재고 데이터를 주고 받기 위해 `delegate패턴` 적용</br> 🆕 `StockChangeViewController`를 닫아줄 `tapCloseButton` 메서드 구현</br>🆕 `StockChangeViewController`에서 `Autolayout` 설정 </br> |
 | 2023.05.23. | 🛠️ `JuiceOrderViewController에서` 파인애플쥬스 주문 버튼 글자 크기 축소 |
 | 2023.05.24. | 🛠️ `navigationController` 인스턴스 생성 방법 수정</br> 🛠️ 부적절한 네이밍 된 함수명 네이밍 변경 </br> 🛠️ `FruitStore`와 `JuiceMaker`에서 불필요한 `update` 메서드 삭제 |
-| 2023.05.25. |                                                              |
-| 2023.05.26. | 📋 3주차 README 작성                                          |
+| 2023.05.26. | 🪡 코드 호출 순서 변경 및 개행 컨벤션 통일</br> 🛠️ 오토레이아웃 수정 </br> 🛠️ 프로토콜 파일 분리 및 네이밍 수정 </br> 🛠️ 옵셔널 바인딩 컨벤션 통일 </br> 📋 3주차 README 작성</br> |
 
 </details>
 
@@ -93,7 +89,7 @@
 
 ## 3.📊 다이어그램
 
-![](https://github.com/myungsun7782/TIL/assets/74762699/2978717f-46f1-4514-9151-9d2850835bfc)
+![](https://github.com/myungsun7782/TIL/assets/74762699/c840c053-f6e7-4502-8b45-3b598f8a4807)
 
 
 
