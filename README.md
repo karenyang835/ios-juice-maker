@@ -89,7 +89,7 @@
 
 ## 3.📊 다이어그램
 
-![](https://hackmd.io/_uploads/r116Kiy8n.png)
+![image](https://github.com/karenyang835/ios-juice-maker/assets/124643896/235889fb-52fe-42b8-8254-9406240c8d87)
 
 
 
