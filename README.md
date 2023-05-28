@@ -49,8 +49,8 @@
 <details><summary span style="color:black; background-color:#23ff2921; font-size:120%"><b>1주차</b></summary></span> 
 
 
-|    날 짜    | 내 용                                                        |
-| :---------: | :----------------------------------------------------------- |
+|**날 짜**|**내 용**|
+|:-:|-|
 | 2023.05.08. | 📝코드 구조 및 협의                                           |
 | 2023.05.09. | 🆕 과일의 재고를 관리하는 `FruitStore` 타입과 과일 쥬스를 제조하는 `JuiceMaker`타입을 정의 후 `initializer` 설정</br>🆕 과일의 재고 수량을 갱신 해주는 기능 추가</br>🆕 현재 남아있는 과일의 수량을 알려주는 기능 추가</br> 🆕 해당 쥬스를 만들 수 있는지 체크하는 기능 추가</br>🆕 쥬스를 만드는 기능 추가 |
 | 2023.05.10. | 🪡 불필요한 주석 제거 및 `creator수정`</br> 🛠️ 전체적으로 어색한 네이밍 수정</br> 🛠️ `FruitStore` 생성자 수정</br> 🛠️ `canMake에` 옵셔널 바인딩 추가</br> 🛠️ `enum` 파일들을 `Model` 디렉토리로 위치 변경 |
@@ -61,19 +61,19 @@
 <details><summary span style="color:black; background-color:#d2ffd2; font-size:120%"><b>2주차</b></summary></span> 
 
 
-|    날 짜    | 내 용                                                        |
-| :---------: | ------------------------------------------------------------ |
+|**날 짜**|**내 용**|
+|:-:|-|
 | 2023.05.15. | 🛠️스토리보드와의 연동을 위해 `Fruit`, `Juice` 열거형의 타입 및 원시값 추가</br>🛠️ 쥬스 주문을 받을 `view`의 `ViewController`명을 `JuiceOrderViewController` 로 변경</br> 🆕 `JuiceOrderViewController`에서 필요한 프로퍼티 생성 및 스토리보드 연동</br>🆕 재고설정 `view`를 컨트롤 해 줄 `StockChangeViewController` 생성 및 `Storyboard`와 연결</br>🆕 `Alert`을 화면에 띄우는 메서드 정의</br>🆕 쥬스 주문이 들어왔을 때 해당 쥬스를 만들어 줄 `orderJuice` 메서드 정의</br> |
 | 2023.05.16. | 🪡 코드 컨벤션 수정  </br>🛠️ 화면전환 방식 변경 </br> 🛠️스토리보드 프로퍼티로 사용 </br> |
 | 2023.05.17. | 🪡 메서드 호출 순서 변경</br> 🛠️ `JuiceOrderViewController`에서 `juiceMaker`와 `JuiceMaker` 구조체 내에서 `fruitStore` 접근 제어자 변경 </br> 🛠️`JuiceMaker` 구조체에서 `getCurrentStock` 메서드 정의 |
-| 2023.05.19. | 📋 2주차 `README` 작성                                        |
+| 2023.05.19. | 📋 2주차 `README` 작성|
 
 </details>
 
 <details><summary span style="color:black; background-color:#aaebaa; font-size:120%"><b>3주차</b></summary></span> 
 
-|    날 짜    | 내 용                                                        |
-| :---------: | ------------------------------------------------------------ |
+|**날 짜**|**내 용**|
+|:-:|-|
 | 2023.05.22. | 🛠️ `FruitStoreError` 열거형에서 `Error` 프로토콜 삭제</br> 🆕 `JuiceMaker` 구조체와 `FruitStore` 클래스에 캡슐화 된 `getFruitStore`, `update` 메서드 추가</br> 🆕 `StockChangeViewController에서` 관련 컴포넌트 연결 및 `fruitStore` 프로퍼티 추가 </br>  🆕 `StockChangeViewController`에서 `Stepper` 기능 구현</br> 🆕 `StockChangeViewController`에서 과일 재고를 업데이트 해주는 기능 구현 </br> 🆕 `StockChangeDelegate` 프로토콜 선언</br> 🆕 과일 재고 데이터를 주고 받기 위해 `delegate패턴` 적용</br> 🆕 `StockChangeViewController`를 닫아줄 `tapCloseButton` 메서드 구현</br>🆕 `StockChangeViewController`에서 `Autolayout` 설정 </br> |
 | 2023.05.23. | 🛠️ `JuiceOrderViewController에서` 파인애플쥬스 주문 버튼 글자 크기 축소 |
 | 2023.05.24. | 🛠️ `navigationController` 인스턴스 생성 방법 수정</br> 🛠️ 부적절한 네이밍 된 함수명 네이밍 변경 </br> 🛠️ `FruitStore`와 `JuiceMaker`에서 불필요한 `update` 메서드 삭제 |
@@ -88,11 +88,7 @@
 <a id="3."></a>
 
 ## 3.📊 다이어그램
-
-![image](https://github.com/karenyang835/ios-juice-maker/assets/124643896/235889fb-52fe-42b8-8254-9406240c8d87)
-
-
-
+![image](https://github.com/karenyang835/ios-juice-maker/assets/124643896/58d97ad5-61b3-431e-9802-cb62d79a4371)
 
 ---
 
@@ -476,11 +472,24 @@ private func presentStockChangeViewController() {
 
   - 기존 과일의 재고를 사용해서 쥬스를 제조합니다.
 
+| 주문이 성공했을 경우 |
+| :--------: |
+|<img src="https://github.com/karenyang835/ios-juice-maker/assets/124643896/d561eb2f-8c1b-4f7d-90dd-265bf062b729.gif" style="zoom:70%;" />|
+
 - 해당 과일 쥬스를 만들기 위해서 필요한 과일이 부족한 경우
 
   - '재고 추가 화면'으로 이동한 뒤 부족한 과일의 재고를 충전합니다.
 
-  <br/><img src="https://github.com/myungsun7782/TIL/assets/74762699/2328ec33-9837-450c-b3c6-ea48f36f7e50" style="zoom:43%;" />
+| 재료가 부족할 경우 |
+| :--------: |
+|<img src="https://github.com/karenyang835/ios-juice-maker/assets/124643896/50437bfb-94f5-4967-8b3d-382a4bae7732.gif" style="zoom:70%;" />| 
+
+    
+| 재료 추가할 경우 |
+| :--------: |
+|<img src="https://github.com/karenyang835/ios-juice-maker/assets/124643896/55069fd0-4192-4831-9c2d-f3d9f9663386.gif" style="zoom:70%;" />|      
+    
+
 
 ---
 
